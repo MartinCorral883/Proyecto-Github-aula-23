@@ -1,7 +1,5 @@
-from ast import If
 
+Dueno= [28957346,'Juan','Perez',4789689, 'Belgrano 101']
 
-Dueño= [28957346,'Juan','Perez',4789689, 'Belgrano 101']
-
-if Dueño[0]> 26000000:
-    print(Dueño)
+if Dueno[0]> 26000000:
+    print("El numero de telefono es: ", Dueno[3])
